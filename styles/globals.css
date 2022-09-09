@@ -24,3 +24,22 @@ a {
     background: black;
   }
 }
+
+a {
+  font-weight: 600;
+  display: inline-block;
+  line-height: 1.6rem;
+}
+
+a::after {
+  content: "";
+  width: 0px;
+  height: 2px;
+  display: block;
+  background: black;
+  transition: 300ms;
+}
+
+a:hover::after {
+  width: 100%;
+}

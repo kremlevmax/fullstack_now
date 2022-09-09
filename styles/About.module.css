@@ -1,12 +1,12 @@
 .infoContainer {
   display: flex;
+  gap: 2rem;
 }
 
 .textContainer {
   flex: 0 1 70%;
   text-align: justify;
 }
-
 .textContainer p {
   line-height: 1.6rem;
 }
